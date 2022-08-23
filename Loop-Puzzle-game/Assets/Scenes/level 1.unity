@@ -130,6 +130,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4777257528217316114, guid: fe4e21517a62dbc45b808a6fc5651ab5, type: 3}
+      propertyPath: m_Lens.OrthographicSize
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4777257528857101564, guid: fe4e21517a62dbc45b808a6fc5651ab5, type: 3}
+      propertyPath: orthographic size
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4777257529340545493, guid: fe4e21517a62dbc45b808a6fc5651ab5, type: 3}
       propertyPath: m_RootOrder
       value: 0
