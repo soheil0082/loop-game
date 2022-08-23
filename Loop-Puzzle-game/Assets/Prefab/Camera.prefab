@@ -325,3 +325,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 4777257528217316114}
+  wholeLevelTarget: {fileID: 0}
+  size: 10
