@@ -123,6 +123,48 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &83093901 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3563317997286177386, guid: fe4e21517a62dbc45b808a6fc5651ab5, type: 3}
+  m_PrefabInstance: {fileID: 572811685}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f5b6d862f93ba4d9781888395e742c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &432046965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 432046966}
+  m_Layer: 0
+  m_Name: Whole level target
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &432046966
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432046965}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -2.32, z: -10.066349}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &572811685
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -130,6 +172,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3563317997286177386, guid: fe4e21517a62dbc45b808a6fc5651ab5, type: 3}
+      propertyPath: size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3563317997286177386, guid: fe4e21517a62dbc45b808a6fc5651ab5, type: 3}
+      propertyPath: wholeLevelTarget
+      value: 
+      objectReference: {fileID: 432046966}
     - target: {fileID: 4777257528217316114, guid: fe4e21517a62dbc45b808a6fc5651ab5, type: 3}
       propertyPath: m_Lens.OrthographicSize
       value: 5
@@ -307,6 +357,46 @@ PrefabInstance:
     - target: {fileID: 7913635103355934017, guid: 38fbca76b0063c943a5f419fe1db1b60, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8683912261493445416, guid: 38fbca76b0063c943a5f419fe1db1b60, type: 3}
+      propertyPath: m_ActionEvents.Array.size
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8683912261493445416, guid: 38fbca76b0063c943a5f419fe1db1b60, type: 3}
+      propertyPath: m_ActionEvents.Array.data[15].m_ActionId
+      value: 7a90a77c-fa2e-4817-9af0-c9ec7f9103a8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8683912261493445416, guid: 38fbca76b0063c943a5f419fe1db1b60, type: 3}
+      propertyPath: m_ActionEvents.Array.data[15].m_ActionName
+      value: Player/Camera View[/Keyboard/c]
+      objectReference: {fileID: 0}
+    - target: {fileID: 8683912261493445416, guid: 38fbca76b0063c943a5f419fe1db1b60, type: 3}
+      propertyPath: m_ActionEvents.Array.data[15].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8683912261493445416, guid: 38fbca76b0063c943a5f419fe1db1b60, type: 3}
+      propertyPath: m_ActionEvents.Array.data[15].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8683912261493445416, guid: 38fbca76b0063c943a5f419fe1db1b60, type: 3}
+      propertyPath: m_ActionEvents.Array.data[15].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 83093901}
+    - target: {fileID: 8683912261493445416, guid: 38fbca76b0063c943a5f419fe1db1b60, type: 3}
+      propertyPath: m_ActionEvents.Array.data[15].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8683912261493445416, guid: 38fbca76b0063c943a5f419fe1db1b60, type: 3}
+      propertyPath: m_ActionEvents.Array.data[15].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: wideLevelShot
+      objectReference: {fileID: 0}
+    - target: {fileID: 8683912261493445416, guid: 38fbca76b0063c943a5f419fe1db1b60, type: 3}
+      propertyPath: m_ActionEvents.Array.data[15].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CameraSetup, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8683912261493445416, guid: 38fbca76b0063c943a5f419fe1db1b60, type: 3}
+      propertyPath: m_ActionEvents.Array.data[15].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38fbca76b0063c943a5f419fe1db1b60, type: 3}
